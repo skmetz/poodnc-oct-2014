@@ -12,9 +12,7 @@ class Farm
   end
 
   def verse(animal)
-    if animal.nil?
-      animal = NullAnimal.new
-    end
+    animal = NullAnimal.new if animal.nil?
 
     "Old MacDonald had a farm, E-I-E-I-O,\n" +
     "And on that farm he had #{animal.species.articlize}, E-I-E-I-O,\n" +
