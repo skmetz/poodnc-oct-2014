@@ -29,3 +29,13 @@ class Farm
     "Old MacDonald had a farm, E-I-E-I-O."
   end
 end
+
+class NullAnimal
+  def species
+    '<silence>'
+  end
+
+  def sound
+    '<silence>'
+  end
+end
