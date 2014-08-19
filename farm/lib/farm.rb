@@ -15,6 +15,7 @@ class Farm
     if animal.nil?
       species = "<silence>"
       sound   = "<silence>"
+      animal = NullAnimal.new
     else
       species = animal.species
       sound   = animal.sound
