@@ -13,12 +13,7 @@ class Farm
 
   def verse(animal)
     if animal.nil?
-      species = "<silence>"
-      sound   = "<silence>"
       animal = NullAnimal.new
-    else
-      species = animal.species
-      sound   = animal.sound
     end
 
     "Old MacDonald had a farm, E-I-E-I-O,\n" +
