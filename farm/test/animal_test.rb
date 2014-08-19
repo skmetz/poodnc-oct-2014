@@ -5,8 +5,6 @@ using Article
 
 # Animals already exists; it's part of an external framework which you're
 # not allowed to change.  These tests are here simply to show you its API.
-#
-# Your job is to write a Farm class that passes the FarmTest below.
 class AnimalsTest < Minitest::Test
   def test_pig
     animal = Animal.all(['pig']).first

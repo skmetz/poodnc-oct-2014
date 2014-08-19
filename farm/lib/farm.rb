@@ -1,14 +1,14 @@
 using Article
 
 class Farm
-  attr_reader :ids
+  attr_reader :animals
 
-  def initialize(ids)
-    @ids = ids
+  def initialize(animals)
+    @animals = animals
   end
 
   def lyrics
-    Animal.all(ids).collect {|animal| verse(animal) }.join("\n\n")
+    animals.collect {|animal| verse(animal) }.join("\n\n")
   end
 
   def verse(animal)
