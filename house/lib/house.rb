@@ -3,7 +3,7 @@ class House
     1.upto(12).map {|i| line(i)}.join("\n")
   end
 
-  def phrases
+  def phrase(i)
     [
       "the horse and the hound and the horn that belonged to",
       "the farmer sowing his corn that kept",
@@ -17,10 +17,12 @@ class House
       "the rat that ate",
       "the malt that lay in",
       "the house that Jack built"
-    ]
+    ].last(i).join(" ")
   end
 
   def line(i)
-    "This is #{phrases.last(i).join(" ")}.\n"
+    "This is #{phrase(i)}.\n"
   end
 end
+
+puts House.new.line(12)
