@@ -1,0 +1,10 @@
+{
+  "**/lib/*.rb": {
+    "type": "lib",
+    "alternate": "{dirname}/test/{basename}_test.rb"
+  },
+  "**/test/*_test.rb": {
+    "type": "test",
+    "alternate": "{dirname}/lib/{basename}.rb"
+  }
+}
