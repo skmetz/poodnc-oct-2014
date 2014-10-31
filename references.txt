@@ -1,3 +1,9 @@
+Polytexnic commits
+  - https://github.com/softcover/polytexnic/pulls?q=is%3Apr+is%3Aclosed+author%3Askmetz
+
+Rails Action Refactoring:
+  - http://tutorials.jumpstartlab.com/projects/tag_cloud_refactoring.html
+
 http://bit.ly/POODNC-rules
   Link to commit in your class repo which articulates the rules for refactoring.
 
