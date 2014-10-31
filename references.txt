@@ -1,5 +1,6 @@
 OOD online reference
-  http://sourcemaking.com/
+  http://sourcemaking.com/ - this is plagiarised from Martin Fowler's book
+  "Refactoring" without attribution and without his permission.
 
 Things to Read:
   Refactoring
