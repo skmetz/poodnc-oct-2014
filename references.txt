@@ -1,3 +1,6 @@
+http://bit.ly/POODNC-rules
+  Link to commit in your class repo which articulates the rules for refactoring.
+
 OOD online reference
   http://sourcemaking.com/ - this is plagiarised from Martin Fowler's book
   "Refactoring" without attribution and without his permission.
